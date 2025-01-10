@@ -216,6 +216,41 @@ nav{
     margin-top: 40px;
 }
 
+/* dr yunus */
+
+.dr-yunus{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 40px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.dr-yunus h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.dr-yunus span{
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 12px;
+}
+
+.dr-yunus p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
 
 
 
