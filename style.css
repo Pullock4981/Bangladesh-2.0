@@ -252,6 +252,69 @@ nav{
     text-align: left;
 }
 
+/* survey  */
+
+.survey{
+    margin-top: 40px;
+}
+
+.survey-container{
+    margin-top: 20px;
+    padding: 22px;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.survey-section {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.survey-header {
+    background-color: rgb(198, 228, 214);
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.survey-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.survey-row:last-child {
+    border-bottom: none;
+}
+
+.survey-question {
+    flex: 2;
+    font-size: 16px;
+}
+
+.survey-opinion {
+    flex: 1;
+    text-align: right;
+}
+
+.survey-select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+
+
+
 
 
 /* media quere */
