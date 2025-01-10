@@ -5,3 +5,74 @@
 .inter {
   font-family: "Inter", serif;
 }
+
+.body{
+    margin-left: 160px;
+    margin-right: 160px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-heading{
+font-weight: 700;
+font-size: 32px;
+}
+.signin{
+    padding:15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.signin:hover{
+    background: rgb(0, 106, 80);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/* media quere */
+
+/* mid device */
+
+@media (max-width:912px){
+    .body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+/* mobile phone */
+
+@media (max-width:600px) {
+    .body{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .nav-heading{
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .signin{
+        padding:8px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
