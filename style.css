@@ -10,7 +10,6 @@
     margin-left: 160px;
     margin-right: 160px;
     padding-top: 10px;
-    padding-bottom: 20px;
     background: rgb(245, 245, 245);
 }
 
@@ -497,15 +496,6 @@ nav{
     align-items: center;
 }
 
-/* .subscribe h1 {
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: center;
-} */
 
 .subscribe p {
     color: rgba(14, 14, 14, 0.7);
@@ -566,6 +556,27 @@ nav{
     text-align: center;
     margin-top: 15px;
 }
+
+/* footer */
+
+#footer{
+    margin-top: 50px;
+    background: #fff;
+    width: screen;
+    padding: 50px;
+}
+
+.hr-line{
+    margin-top: 30px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
 
 
 
