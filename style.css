@@ -22,6 +22,18 @@
     text-align: left;
 }
 
+.heading-1{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.heading-2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
 /* nav section */
 nav{
     display: flex;
@@ -312,8 +324,165 @@ nav{
     cursor: pointer;
 }
 
+/* recent-news */
 
+.recent-news{
+    margin-top: 40px;
+}
 
+.recent-news-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.recent-news-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.recent-news-1{
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.recent-news-2{
+    width: 100%;
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.recent-img {
+    width: 100%;
+}
+
+.recent-img img{
+    border-radius: 12px;
+    width: 100%;
+}
+
+.recent-text{
+    width: 100;
+}
+
+.time-date{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 8px;
+}
+
+.date, .time{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.recent-para{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.recent-btn{
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 7px 10px;
+    width: 100px;
+    text-align: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.recent-btn:hover{
+    background: #e0dede;
+    color: rgb(0, 106, 80);
+}
+
+/* donation */
+
+.donation{
+    margin-top: 40px;
+}
+
+.donate-para{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin: 12px;
+}
+
+.donation-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.donation-box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 30px 40px;
+}
+
+#color-box{
+    background: rgb(198, 228, 214);
+}
+
+.donation-box:hover{
+    background: rgb(198, 228, 214);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.donate-now-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 12px;
+    border: 0px;
+    color:rgba(14, 14, 14, 0.3);;
+}
+
+.donation-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
 
 
 
@@ -372,10 +541,16 @@ nav{
         margin-right: 20px;
     }
 
-    .heading{
+    .heading, .heading-1{
         font-size: 20px;
         font-weight: 700;
         text-align: left;
+    }
+
+    .heading{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
     }
 
     /* nav section */
@@ -441,4 +616,19 @@ nav{
         flex-direction: column;
     }
 
+    /* recent-news */
+
+    .recent-news-1{
+        flex-direction: column;
+    }
+
+    .recent-news-2{
+        flex-direction: column;
+    }
+
+    /* donation */
+
+    .donation-box-container{
+        flex-direction: column;
+    }
 }
