@@ -14,6 +14,14 @@
     background: rgb(245, 245, 245);
 }
 
+/* heading text */
+
+.heading{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
 /* nav section */
 nav{
     display: flex;
@@ -22,8 +30,8 @@ nav{
 }
 
 .nav-heading{
-font-weight: 700;
-font-size: 32px;
+    font-weight: 700;
+    font-size: 32px;
 }
 .signin{
     padding:15px 30px;
@@ -109,6 +117,47 @@ font-size: 32px;
     width: 100%;
 }
 
+/* pillers-bangladesh */
+
+.pillers-bangladesh{
+    margin-top: 55px;
+}
+
+.philler-card-container,
+.card-container-1,
+.card-container-2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.philler-card{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.philler-card-text{
+    text-align: left;
+}
+
+.philler-card-text h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.philler-card-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-top: 5px;
+}
 
 
 
@@ -148,6 +197,17 @@ font-size: 32px;
         font-size: 16px;
         padding: 10px 15px;
     }
+
+    /* pillers-bangladesh */
+
+    .philler-card-container{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+    }
 }
 
 /* mobile phone */
@@ -156,6 +216,12 @@ font-size: 32px;
     .body{
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    .heading{
+        font-size: 20px;
+        font-weight: 700;
+        text-align: left;
     }
 
     /* nav section */
@@ -201,6 +267,19 @@ font-size: 32px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    /* pillers-bangladesh */
+
+    .philler-card-container,
+    .card-container-1,
+    .card-container-2{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* gap: 18px; */
     }
 
 }
