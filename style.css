@@ -7,10 +7,14 @@
 }
 
 .body{
-    margin-left: 160px;
-    margin-right: 160px;
+
     padding-top: 10px;
     background: rgb(245, 245, 245);
+}
+
+.padding{
+    padding-left: 130px;
+    padding-right: 130px;
 }
 
 /* heading text */
@@ -58,6 +62,8 @@ nav{
 .signin:hover{
     background: rgb(0, 106, 80);
     color: #fff;
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 /* hero section */
@@ -118,6 +124,8 @@ nav{
     color: rgb(0, 106, 80);
     background: #fff;
     border: 1px solid rgb(0, 106, 80);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .hero-img{
@@ -151,6 +159,11 @@ nav{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 20px;
+}
+
+.philler-card:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 .philler-card-text{
@@ -418,12 +431,14 @@ nav{
 .recent-btn:hover{
     background: #e0dede;
     color: rgb(0, 106, 80);
+    transform: scale(1.05);
+    transition: 0.3s;
 }
 
 /* donation */
 
 .donation{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .donate-para{
@@ -468,8 +483,9 @@ nav{
 }
 
 .input-box{
+    margin-top: 20px;
     width: 90%;
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     border-radius: 12px;
     border: 0px;
@@ -585,9 +601,10 @@ nav{
 /* mid device */
 
 @media (max-width:992px){
-    .body{
-        margin-left: 20px;
-        margin-right: 20px;
+
+    .padding{
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     /* hero section */
@@ -630,10 +647,11 @@ nav{
 /* mobile phone */
 
 @media (max-width:600px) {
-    .body{
-        margin-left: 20px;
-        margin-right: 20px;
+    .padding{
+        padding-left: 20px;
+        padding-right: 20px;
     }
+
 
     .heading, .heading-1{
         font-size: 20px;
