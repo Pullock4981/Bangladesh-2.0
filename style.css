@@ -295,6 +295,20 @@ table {
     margin: none;
   
   }
+
+.about-section{
+    background: #fff;
+    padding-top: 1px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 28px;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+.about-content{
+    background: #fff;
+}
   
   table thead {
     background-color: #C6E4D6;
