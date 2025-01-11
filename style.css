@@ -164,6 +164,7 @@ nav{
 .philler-card:hover{
     transform: scale(1.05);
     transition: 0.3s;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
 
 .philler-card-text{
@@ -475,6 +476,7 @@ nav{
     background: rgb(198, 228, 214);
     transition: 0.3s;
     transform: scale(1.05);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.19);
 }
 
 .donate-now-btn{
