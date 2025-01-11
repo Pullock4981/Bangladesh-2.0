@@ -285,59 +285,57 @@ nav{
     margin-top: 40px;
 }
 
-.survey-container{
-    margin-top: 20px;
-    padding: 22px;
-    border-radius: 12px;
-    background: #fff;
-}
+/* table */
 
-.survey-section {
+table {
     width: 100%;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    overflow: hidden;
-}
-
-.survey-header {
-    background-color: rgb(198, 228, 214);
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
+    border-collapse: collapse;
+    margin-top: 32px;
+    border: 1px solid rgba(14, 14, 14, .2);
+    margin: none;
+  
+  }
+  
+  table thead {
+    background-color: #C6E4D6;
+   
+    }
+  
+  table thead tr th {
+    font-size: 16px;
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 16px;
+    border: 1px solid rgba(198, 228, 214, 1);
+  }
+  .th-head {
     text-align: left;
-    border-bottom: 1px solid #ccc;
-}
-
-.survey-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-    border-bottom: 1px solid #ccc;
-}
-
-.survey-row:last-child {
-    border-bottom: none;
-}
-
-.survey-question {
-    flex: 2;
+    padding-left: 32px;
+  }
+  table tbody tr th {
     font-size: 16px;
-}
-
-.survey-opinion {
-    flex: 1;
-    text-align: right;
-}
-
-.survey-select {
-    padding: 5px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: rgb(198, 228, 214);
-    cursor: pointer;
-}
+    color: #0E0E0E;
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15) ;
+  }
+  
+  table tbody tr th button {
+    background-color: rgba(198, 228, 214, 1);
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    padding: 12px 17px;
+  }
+  .th-1 {
+    text-align: left;
+    padding-left: 32px;
+  }
 
 /* recent-news */
 
